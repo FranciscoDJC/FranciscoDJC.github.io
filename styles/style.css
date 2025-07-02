@@ -1,0 +1,150 @@
+/* styles/style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3e3e3;
+  padding: 6rem 0;
+  position: relative;
+}
+
+.hero-box {
+  background-color: #d69fa1;
+  padding: 2rem 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ABOUT SECTION */
+.about {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* QUOTE */
+.quote, .quote-contact {
+  background-color: #e3e3e3;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* PORTFOLIO PAGE */
+.portfolio-hero {
+  background: linear-gradient(to right, #ccc 0%, #f4c6c6 35%, #e9c4c4 100%);
+  text-align: center;
+  padding: 5rem 1rem 3rem;
+}
+
+.portfolio-hero h1 {
+  font-size: 3rem;
+  font-family: 'Georgia', serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.portfolio-hero span {
+  color: #fff;
+}
+
+/* Featured Label */
+.featured-title {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+}
+
+.featured-title h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+/* Gallery */
+.portfolio-gallery {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 4rem;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, auto); 
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  max-height: 240px;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+/* CONTACT PAGE */
+.contact-info {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2rem;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
